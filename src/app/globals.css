@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+  }
+  .nav-menus{
+    @apply text-gray-900 hover:text-orange-500 font-medium hover:font-semibold p-2 hover:bg-slate-200 rounded-xl
+  }
+  .buttons{
+    @apply bg-orange-500 hover:bg-orange-300 text-white py-4 px-8 mb-4 rounded-lg
+  }
+}
+
